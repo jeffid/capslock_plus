@@ -1,0 +1,16 @@
+# Miscellaneous
+*.log
+.DS_Store
+.atom/
+.history
+.svn/
+
+# IntelliJ related
+.idea/
+
+# VS Code
+.vscode/
+
+.env
+*.bak
+_
