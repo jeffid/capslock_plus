@@ -424,7 +424,7 @@
       ]
     },
     {
-      "description": "fn + num and so on to f1~f14",
+      "description": "fn + num and so on to f1~f13,f20",
       "manipulators": [
         {
           "type": "basic",
@@ -646,7 +646,7 @@
           },
           "to": [
             {
-              "key_code": "f14"
+              "key_code": "f20"
             }
           ]
         }
@@ -710,10 +710,10 @@
       ]
     },
     {
-      "description": "Modifier to function key f15~f20",
+      "description": "Modifier to function key f14~f19",
       "manipulators": [
         {
-          "description": "If only left_control is pressed treated as f15",
+          "description": "If only left_control is pressed treated as f14",
           "type": "basic",
           "from": {
             "key_code": "left_control",
@@ -731,12 +731,12 @@
           ],
           "to_if_alone": [
             {
-              "key_code": "f15"
+              "key_code": "f14"
             }
           ]
         },
         {
-          "description": "If only left_option is pressed treated as f16",
+          "description": "If only left_option is pressed treated as f15",
           "type": "basic",
           "from": {
             "key_code": "left_option",
@@ -754,12 +754,12 @@
           ],
           "to_if_alone": [
             {
-              "key_code": "f16"
+              "key_code": "f15"
             }
           ]
         },
         {
-          "description": "If only left_command is pressed treated as f17",
+          "description": "If only left_command is pressed treated as f16",
           "type": "basic",
           "from": {
             "key_code": "left_command",
@@ -777,12 +777,12 @@
           ],
           "to_if_alone": [
             {
-              "key_code": "f17"
+              "key_code": "f16"
             }
           ]
         },
         {
-          "description": "If only right_command is pressed treated as f18",
+          "description": "If only right_command is pressed treated as f17",
           "type": "basic",
           "from": {
             "key_code": "right_command",
@@ -800,12 +800,12 @@
           ],
           "to_if_alone": [
             {
-              "key_code": "f18"
+              "key_code": "f17"
             }
           ]
         },
         {
-          "description": "If only right_option is pressed treated as f19",
+          "description": "If only right_option is pressed treated as f18",
           "type": "basic",
           "from": {
             "key_code": "right_option",
@@ -823,12 +823,12 @@
           ],
           "to_if_alone": [
             {
-              "key_code": "f19"
+              "key_code": "f18"
             }
           ]
         },
         {
-          "description": "If only right_shift is pressed treated as f20",
+          "description": "If only right_shift is pressed treated as f19",
           "type": "basic",
           "from": {
             "key_code": "right_shift",
@@ -846,7 +846,7 @@
           ],
           "to_if_alone": [
             {
-              "key_code": "f20"
+              "key_code": "f19"
             }
           ]
         }
